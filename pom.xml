@@ -23,7 +23,7 @@
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
         <glassfish.version>3.0.0</glassfish.version>
         <google.maps.version>2.2.0</google.maps.version>
-        <maven.project.info.reports.plugin.version>3.5.0</maven.project.info.reports.plugin.version>
+        <maven.project.info.reports.plugin.version>3.7.0</maven.project.info.reports.plugin.version>
         <mysql.version>9.0.0</mysql.version>
     </properties>
 
