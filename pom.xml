@@ -19,7 +19,7 @@
          <checkstyle.plugin.version>3.5.0</checkstyle.plugin.version>
         <checkstyle.version>10.18.2</checkstyle.version>
         <jacoco.plugin.version>0.8.12</jacoco.plugin.version>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
         <glassfish.version>3.0.0</glassfish.version>
         <google.maps.version>2.2.0</google.maps.version>
