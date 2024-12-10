@@ -15,7 +15,7 @@
     <description>mirror</description>
 
     <properties>
-        <apache.commons.dbcp2.version>2.12.0</apache.commons.dbcp2.version>
+        <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
          <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.20.2</checkstyle.version>
         <jacoco.plugin.version>0.8.12</jacoco.plugin.version>
