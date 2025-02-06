@@ -25,6 +25,7 @@
         <google.maps.version>2.2.0</google.maps.version>
         <maven.project.info.reports.plugin.version>3.8.0</maven.project.info.reports.plugin.version>
         <mysql.version>9.2.0</mysql.version>
+        <opencsv.version>5.9</opencsv.version>
     </properties>
 
     <dependencies>
@@ -127,6 +128,12 @@
             <groupId>com.google.maps</groupId>
             <artifactId>google-maps-services</artifactId>
             <version>${google.maps.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>${opencsv.version}</version>
         </dependency>
     </dependencies>
 
