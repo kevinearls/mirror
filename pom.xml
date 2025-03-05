@@ -16,7 +16,8 @@
 
     <properties>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
-         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
+        <aws.s3.sdk.version>2.30.7</aws.s3.sdk.version>
+        <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.21.3</checkstyle.version>
         <jacoco.plugin.version>0.8.12</jacoco.plugin.version>
         <java.version>21</java.version>
@@ -134,6 +135,11 @@
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
             <version>${opencsv.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>${aws.s3.sdk.version}</version>
         </dependency>
     </dependencies>
 
