@@ -16,7 +16,7 @@
 
     <properties>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
-        <aws.s3.sdk.version>2.31.11</aws.s3.sdk.version>
+        <aws.s3.sdk.version>2.31.14</aws.s3.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.21.4</checkstyle.version>
         <jacoco.plugin.version>0.8.12</jacoco.plugin.version>
