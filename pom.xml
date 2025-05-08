@@ -15,6 +15,7 @@
     <description>mirror</description>
 
     <properties>
+        <apache.commons.codec.version>1.18.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
         <aws.s3.sdk.version>2.31.37</aws.s3.sdk.version>
         <aws.secretsmanager.version>2.31.37</aws.secretsmanager.version>
@@ -153,6 +154,11 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson-databind.vsrsion}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${apache.commons.codec.version}</version>
         </dependency>
     </dependencies>
 
