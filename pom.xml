@@ -16,7 +16,7 @@
 
     <properties>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
-        <aws.s3.sdk.version>2.31.34</aws.s3.sdk.version>
+        <aws.s3.sdk.version>2.31.37</aws.s3.sdk.version>
         <aws.secretsmanager.version>2.31.37</aws.secretsmanager.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.23.1</checkstyle.version>
@@ -27,8 +27,8 @@
         <glassfish.version>3.0.0</glassfish.version>
         <google.maps.version>2.2.0</google.maps.version>
         <maven.project.info.reports.plugin.version>3.9.0</maven.project.info.reports.plugin.version>
-        <mysql.version>9.2.0</mysql.version>
-        <opencsv.version>5.10</opencsv.version>
+        <mysql.version>9.3.0</mysql.version>
+        <opencsv.version>5.11</opencsv.version>
     </properties>
 
     <dependencies>
