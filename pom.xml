@@ -17,6 +17,7 @@
     <properties>
         <apache.commons.codec.version>1.18.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
+        <apache.commons.text>1.13.1</apache.commons.text>
         <aws.s3.sdk.version>2.31.46</aws.s3.sdk.version>
         <aws.secretsmanager.version>2.31.46</aws.secretsmanager.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
@@ -30,6 +31,7 @@
         <maven.project.info.reports.plugin.version>3.9.0</maven.project.info.reports.plugin.version>
         <mysql.version>9.3.0</mysql.version>
         <opencsv.version>5.11</opencsv.version>
+        <spring.cloud.starter.version>4.2.2</spring.cloud.starter.version>
     </properties>
 
     <dependencies>
@@ -74,7 +76,11 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
-
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
+            <version>${spring.cloud.starter.version}</version>
+        </dependency>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-devtools</artifactId>
@@ -159,6 +165,12 @@
             <groupId>commons-codec</groupId>
             <artifactId>commons-codec</artifactId>
             <version>${apache.commons.codec.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-text -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-text</artifactId>
+            <version>${apache.commons.text}</version>
         </dependency>
     </dependencies>
 
