@@ -19,7 +19,7 @@
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.13.1</apache.commons.text>
         <aws.s3.sdk.version>2.31.46</aws.s3.sdk.version>
-        <aws.secretsmanager.version>2.31.46</aws.secretsmanager.version>
+        <aws.secretsmanager.version>2.31.51</aws.secretsmanager.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.23.1</checkstyle.version>
         <jackson-databind.vsrsion>2.19.0</jackson-databind.vsrsion>
