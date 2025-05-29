@@ -18,6 +18,7 @@
         <apache.commons.codec.version>1.18.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.13.1</apache.commons.text>
+        <aws.rds.version>2.31.50</aws.rds.version>
         <aws.s3.sdk.version>2.31.46</aws.s3.sdk.version>
         <aws.secretsmanager.version>2.31.46</aws.secretsmanager.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
@@ -144,6 +145,12 @@
             <groupId>com.opencsv</groupId>
             <artifactId>opencsv</artifactId>
             <version>${opencsv.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/rds -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>rds</artifactId>
+            <version>${aws.rds.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
