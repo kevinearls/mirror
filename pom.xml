@@ -18,9 +18,7 @@
         <apache.commons.codec.version>1.18.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.13.1</apache.commons.text>
-        <aws.rds.version>2.31.52</aws.rds.version>
-        <aws.s3.sdk.version>2.31.53</aws.s3.sdk.version>
-        <aws.secretsmanager.version>2.31.52</aws.secretsmanager.version>
+        <aws.sdk.version>2.31.53</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.24.0</checkstyle.version>
         <jackson-databind.vsrsion>2.19.0</jackson-databind.vsrsion>
@@ -34,6 +32,18 @@
         <opencsv.version>5.11</opencsv.version>
         <spring.cloud.starter.version>4.2.2</spring.cloud.starter.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>software.amazon.awssdk</groupId>
+                <artifactId>bom</artifactId>
+                <version>${aws.sdk.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
     <dependency>
@@ -150,18 +160,15 @@
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>rds</artifactId>
-            <version>${aws.rds.version}</version>
         </dependency>
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>s3</artifactId>
-            <version>${aws.s3.sdk.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/software.amazon.awssdk/secretsmanager -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>secretsmanager</artifactId>
-            <version>${aws.secretsmanager.version}</version>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
