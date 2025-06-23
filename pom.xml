@@ -30,7 +30,7 @@
         <google.maps.version>2.2.0</google.maps.version>
         <maven.project.info.reports.plugin.version>3.9.0</maven.project.info.reports.plugin.version>
         <mysql.version>9.3.0</mysql.version>
-        <opencsv.version>5.11.1</opencsv.version>
+        <opencsv.version>5.11.2</opencsv.version>
         <spring.cloud.starter.version>4.3.0</spring.cloud.starter.version>
     </properties>
 
