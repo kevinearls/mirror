@@ -22,7 +22,7 @@
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>10.26.1</checkstyle.version>
         <com.drewnoakes.metadata-extractor.version>2.19.0</com.drewnoakes.metadata-extractor.version>
-        <jackson-databind.vsrsion>2.19.1</jackson-databind.vsrsion>
+        <jackson-databind.vsrsion>2.19.2</jackson-databind.vsrsion>
         <jacoco.plugin.version>0.8.13</jacoco.plugin.version>
         <java.version>21</java.version>
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
