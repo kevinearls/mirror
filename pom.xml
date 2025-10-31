@@ -18,7 +18,7 @@
         <apache.commons.codec.version>1.19.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.13.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.14.0</apache.commons.text>
-        <aws.sdk.version>2.36.2</aws.sdk.version>
+        <aws.sdk.version>2.37.2</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>12.1.1</checkstyle.version>
         <com.drewnoakes.metadata-extractor.version>2.19.0</com.drewnoakes.metadata-extractor.version>
