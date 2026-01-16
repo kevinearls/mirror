@@ -20,7 +20,7 @@
         <apache.commons.text>1.15.0</apache.commons.text>
         <aws.sdk.version>2.41.0</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
-        <checkstyle.version>12.3.1</checkstyle.version>
+        <checkstyle.version>13.0.0</checkstyle.version>
         <com.drewnoakes.metadata-extractor.version>2.19.0</com.drewnoakes.metadata-extractor.version>
         <jackson-databind.vsrsion>2.20.1</jackson-databind.vsrsion>
         <jacoco.plugin.version>0.8.14</jacoco.plugin.version>
