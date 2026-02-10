@@ -15,7 +15,7 @@
     <description>mirror</description>
 
     <properties>
-        <apache.commons.codec.version>1.20.0</apache.commons.codec.version>
+        <apache.commons.codec.version>1.21.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.14.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.15.0</apache.commons.text>
         <aws.sdk.version>2.41.17</aws.sdk.version>
