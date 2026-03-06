@@ -31,6 +31,7 @@
         <mysql.version>9.6.0</mysql.version>
         <opencsv.version>5.12.0</opencsv.version>
         <spring.cloud.starter.version>5.0.1</spring.cloud.starter.version>
+        <thumbnailator.version>0.4.20</thumbnailator.version>
     </properties>
 
     <dependencyManagement>
@@ -190,6 +191,11 @@
             <groupId>com.drewnoakes</groupId>
             <artifactId>metadata-extractor</artifactId>
             <version>${com.drewnoakes.metadata-extractor.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>net.coobird</groupId>
+            <artifactId>thumbnailator</artifactId>
+            <version>${thumbnailator.version}</version>
         </dependency>
     </dependencies>
 
