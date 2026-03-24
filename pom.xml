@@ -28,7 +28,7 @@
         <glassfish.version>3.0.1-b12</glassfish.version>
         <google.maps.version>2.2.0</google.maps.version>
         <maven.project.info.reports.plugin.version>3.9.0</maven.project.info.reports.plugin.version>
-        <mockito.version>5.15.2</mockito.version>
+        <mockito.version>5.23.0</mockito.version>
         <mysql.version>9.6.0</mysql.version>
         <okio-jvm-version>3.4.0</okio-jvm-version> <!-- remove this after google maps CVE is fixed -->
         <opencsv.version>5.12.0</opencsv.version>
