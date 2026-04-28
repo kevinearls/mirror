@@ -17,9 +17,10 @@
         <apache.commons.codec.version>1.21.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.14.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.15.0</apache.commons.text>
-        <aws.sdk.version>2.42.21</aws.sdk.version>
+        <aws.sdk.version>2.42.38</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>13.4.0</checkstyle.version>
+        <excludedGroups>integration</excludedGroups>
         <jackson.version>2.21.2</jackson.version>
         <jackson-annotations.version>2.21</jackson-annotations.version>
         <jacoco.plugin.version>0.8.14</jacoco.plugin.version>
@@ -27,10 +28,11 @@
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
         <glassfish.version>3.0.1-b12</glassfish.version>
         <google.maps.version>2.2.0</google.maps.version>
+        <groovy.version>5.0.3</groovy.version>
         <maven.project.info.reports.plugin.version>3.9.0</maven.project.info.reports.plugin.version>
         <mockito.version>5.23.0</mockito.version>
         <mysql.version>9.7.0</mysql.version>
-        <okio-jvm-version>3.4.0</okio-jvm-version> <!-- remove this after google maps CVE is fixed -->
+        <okio-jvm-version>3.17.0</okio-jvm-version> <!-- remove this after google maps CVE is fixed -->
         <opencsv.version>5.12.0</opencsv.version>
         <spring.cloud.starter.version>5.0.1</spring.cloud.starter.version>
         <thumbnailator.version>0.4.21</thumbnailator.version>
