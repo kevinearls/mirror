@@ -22,7 +22,7 @@
         <checkstyle.version>13.4.2</checkstyle.version>
         <excludedGroups>integration</excludedGroups>
         <jackson.version>2.21.4</jackson.version>
-        <jackson-annotations.version>2.21</jackson-annotations.version>
+        <jackson-annotations.version>2.22</jackson-annotations.version>
         <jacoco.plugin.version>0.8.14</jacoco.plugin.version>
         <java.version>25</java.version>
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
