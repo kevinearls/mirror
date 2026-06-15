@@ -19,7 +19,7 @@
         <apache.commons.text>1.15.0</apache.commons.text>
         <aws.sdk.version>2.46.5</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
-        <checkstyle.version>13.5.0</checkstyle.version>
+        <checkstyle.version>13.6.0</checkstyle.version>
         <excludedGroups>integration</excludedGroups>
         <jackson.version>2.22.0</jackson.version>
         <jackson-annotations.version>2.22</jackson-annotations.version>
