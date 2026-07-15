@@ -21,7 +21,7 @@
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
         <checkstyle.version>13.7.0</checkstyle.version>
         <excludedGroups>integration</excludedGroups>
-        <jackson.version>2.22.0</jackson.version>
+        <jackson.version>2.22.1</jackson.version>
         <jackson-annotations.version>2.22</jackson-annotations.version>
         <jacoco.plugin.version>0.8.15</jacoco.plugin.version>
         <java.version>25</java.version>
