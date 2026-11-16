@@ -17,12 +17,14 @@
         <apache.commons.codec.version>1.23.0</apache.commons.codec.version>
         <apache.commons.dbcp2.version>2.14.0</apache.commons.dbcp2.version>
         <apache.commons.text>1.15.0</apache.commons.text>
-        <aws.sdk.version>2.55.6</aws.sdk.version>
+        <aws.sdk.version>2.57.11</aws.sdk.version>
         <checkstyle.plugin.version>3.6.0</checkstyle.plugin.version>
-        <checkstyle.version>14.3.0</checkstyle.version>
+        <checkstyle.version>14.4.0</checkstyle.version>
         <excludedGroups>integration</excludedGroups>
         <jackson.version>2.22.4</jackson.version>
         <jackson-annotations.version>2.23</jackson-annotations.version>
+        <jackson.version>2.23.0</jackson.version>
+        <jackson-annotations.version>2.22</jackson-annotations.version>
         <jacoco.plugin.version>0.8.16</jacoco.plugin.version>
         <java.version>25</java.version>
         <jboss.aerogear.otp.version>1.0.0</jboss.aerogear.otp.version>
